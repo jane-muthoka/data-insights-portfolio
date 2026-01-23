@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-primary/30 shadow-lg shadow-primary/20 bg-gradient-to-br from-primary/20 to-accent/20">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
+                src="https://media.licdn.com/dms/image/v2/D4D03AQGSlHnTbHbhYw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713698924616?e=1770854400&v=beta&t=6F6oQJ6XnnEYAdOQFkU-GhXk25k_UKsk86qS_oBw2Wc"
                 alt="Profile photo"
                 className="w-full h-full object-cover"
               />
@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
           
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 tracking-tight">
-            Hi, I'm <span className="text-gradient">Alex Chen</span>
+            Hi, I'm <span className="text-gradient">Jane Muthoka</span>
           </h1>
           
           <p className="text-2xl md:text-3xl text-muted-foreground font-light mb-6">
@@ -57,14 +57,14 @@ const Hero = () => {
           
           <div className="flex justify-center gap-6">
             <a 
-              href="#" 
+              href="https://github.com/jane-muthoka" 
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
               aria-label="GitHub"
             >
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/jane-muthoka-364781216/" 
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
               aria-label="LinkedIn"
             >
